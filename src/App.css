@@ -1,0 +1,270 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+body {
+  background-image: url("pictures/pic1.jpg");
+  background-size: 100%;
+}
+#one{
+  width: 70%;    
+ height: 80vh;
+  mix-blend-mode: hard-light;
+  background-color: #bbb2b2;
+
+}
+#two{
+  width:30%; 
+  height: 80vh;
+  background-color: #ffffff;
+  
+}
+
+.Pic{
+
+  display: flex;
+  
+}
+
+#Pic p{
+  margin-top: 100px;
+  margin-left: 10px;
+  font-size: 30px;
+  
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Pic img{
+  border-radius: 50px;
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 100px;
+   height: 100px;
+}
+/*#Search{
+  display: flex;
+}
+#Search img{
+  margin-top: 30px;
+  width: 40px;
+   height: 40px;
+}*/
+input{
+  text-align: center;
+  font-size: 30px;
+ border-radius: 10px;
+ border: none;
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 50px;
+  width: 80%;
+  background-color: rgb(183, 185, 187);
+}
+
+.Day{
+
+  display: flex;
+  margin-top: 20px;
+}
+
+#Day p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Day img{
+  
+  
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+   height: 50px;
+}
+.Important{
+
+  display: flex;
+  margin-top: 20px;
+}
+#Important p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Important img{
+  
+  
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+   height: 50px;
+}
+
+.Planned{
+
+  display: flex;
+  margin-top: 20px;
+}
+#Planned p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Planned img{
+ 
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+   height: 50px;
+}
+
+.Assigned{
+
+  display: flex;
+  margin-top: 20px;
+}
+#Assigned p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Assigned img{
+ 
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+   height: 50px;
+}
+.Completed{
+
+  display: flex;
+  margin-top: 20px;
+}
+#Completed p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Completed img{
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+   height: 50px;
+}
+.Task{
+
+  display: flex;
+  margin-top: 20px;
+}
+#Task p{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Task img{
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+   height: 50px;
+}
+.new{
+
+  display: flex;
+  margin-top: 10px;
+}
+#new img{
+  margin-top: 5px;
+  margin-left: 200px;
+  height: 60px;
+  width: 50px;
+   height: 50px;
+}
+#new p{
+  margin-top: 20px;
+ 
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+
+.Photo{
+
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+
+#Photo p{
+  font-size: 30px;
+ margin-left: 40%;
+  
+  font-weight: bold;
+  font-family: Sans-serif;
+}
+#Photo img{
+ 
+  position: absolute;
+  right: 2%;
+  width: 100px;
+   height: 100px;
+}
+
+#myDIV{
+  display: flex;
+}
+#myDIV input{
+  margin-top: 85px;
+  
+  font-size: 40px;
+
+ 
+  height: 50px;
+  width: 80%;
+  background-color: rgb(136, 136, 136);
+}
+#myDIV button{
+  margin-top: 85px;
+  
+  font-size: 40px;
+ 
+ 
+  height: 50px;
+  width: 10%;
+  background-color: rgb(91, 93, 94);
+}
+
+#display h{
+  font-size: 40px;
+}
+#display p{
+  font-size: 20px;
+}
+#display{
+  margin-top: 20px;
+  margin-left: 30px;
+
+  font-size: 30px;
+  height: 100px;
+  width: 90%;
+  background-color: rgb(245, 231, 231);
+}
